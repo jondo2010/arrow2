@@ -38,6 +38,8 @@ pub const AUTH_PASSWORD: &str = "flight";
 pub mod flight_client_scenarios;
 pub mod flight_server_scenarios;
 
+pub mod perf;
+
 pub struct ArrowFile {
     pub schema: Schema,
     pub fields: Vec<IpcField>,
